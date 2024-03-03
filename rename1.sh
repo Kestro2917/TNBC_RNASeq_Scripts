@@ -1,0 +1,1 @@
+for f in *.txt; do mv "$f" "`echo $f | sed s/pro1pro2/_key_split/`"; done

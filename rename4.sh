@@ -1,0 +1,1 @@
+for f in *.txt; do mv "$f" "`echo $f | sed s/_swap_end/_key_split_chr_end_swap_end/`"; done

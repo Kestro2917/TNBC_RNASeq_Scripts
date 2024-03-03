@@ -1,0 +1,1 @@
+find . -name '*no_header_no_header_merge*' -exec bash -c 'mv $0 ${0/no_header_no_header_merge/column_extract_megre}' {} \;

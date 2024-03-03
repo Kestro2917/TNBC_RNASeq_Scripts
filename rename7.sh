@@ -1,0 +1,1 @@
+for f in *.maf; do mv "$f" "`echo $f | sed s/_onco_output_header_removed_second_key/_onco_op/`"; done
